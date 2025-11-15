@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.marquee-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: transparent;
+}
+
+.marquee-inner {
+  display: flex;
+  width: fit-content;
+  will-change: transform;
+}
+
+.marquee-inner.to-left {
+  animation: scroll-left 50s linear infinite;
+}
+
+.marquee-inner.to-right {
+  animation: scroll-right 50s linear infinite;
+}
+
+.marquee-inner:hover {
+  animation-play-state: paused;
+}
+
+.audience-card {
+  min-width: 380px;
+  max-width: 380px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.audience-card:hover {
+  transform: translateY(-5px);
+}
+
+.audience-card .service-card-items:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12) !important;
+}
+

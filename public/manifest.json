@@ -1,0 +1,21 @@
+{
+  "name": "Indalio - Premium Workspace Accessories",
+  "short_name": "Indalio",
+  "description": "Premium gas spring monitor arms and cable management solutions from Ludhiana",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF6600",
+  "icons": [
+    {
+      "src": "/assets/img/logo/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/logo/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
