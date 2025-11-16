@@ -20,76 +20,88 @@ const Services = () => {
             Accessories Designed to Improve <br /> Comfort & Productivity
           </h2>
         </div>
-        <div className="row">
+        <div className="row justify-content-center">
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+            className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
             data-wow-delay=".3s"
           >
-            <div className="service-box-items">
-              <div className="icon">
-                <i className="flaticon-keywords" />
+            <div className="service-box-items" style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '15px', padding: '30px', height: '100%', position: 'relative', overflow: 'hidden'}}>
+              <div className="product-image" style={{marginBottom: '20px', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.3)'}}>
+                <img src="/assets/img/products/monitor-arm-1.jpg" alt="Gas Spring Single Monitor Arm" style={{width: '100%', height: '200px', objectFit: 'cover', display: 'block'}} />
               </div>
-              <div className="content">
-                <h3>
-                  <Link href="service-details">Gas Spring Single Monitor Arm</Link>
+              <div className="content" style={{color: 'white'}}>
+                <h3 style={{fontSize: '20px', marginBottom: '12px'}}>
+                  <Link href="service-details" style={{color: 'white'}}>Gas Spring Single Monitor Arm</Link>
                 </h3>
-                <p>
-                  Premium height-adjustable monitor arm engineered for smooth movement, precise positioning, and maximum desk space optimization. Supports 17-32" monitors.
+                <p style={{fontSize: '14px', lineHeight: '1.6', color: 'rgba(255,255,255,0.9)'}}>
+                  A premium height-adjustable monitor arm engineered for smooth movement, precise positioning, and maximum desk space optimization.
                 </p>
+                <div style={{marginTop: '15px', fontSize: '13px', fontWeight: '600'}}>
+                  <strong>Technical:</strong> Premium gas-spring technology with effortless height adjustment, tilt, swivel, and rotation. Compatible with 17-32" monitors.
+                </div>
               </div>
             </div>
           </div>
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+            className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
             data-wow-delay=".5s"
           >
-            <div className="service-box-items active">
-              <div className="icon">
-                <i className="flaticon-social-media" />
+            <div className="service-box-items" style={{background: 'linear-gradient(135deg, #2c3e50 0%, #34495e 100%)', borderRadius: '15px', padding: '30px', height: '100%', position: 'relative', overflow: 'hidden'}}>
+              <div className="product-image" style={{marginBottom: '20px', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.3)'}}>
+                <img src="/assets/img/products/monitor-arm-2.jpg" alt="Gas Spring Dual Monitor Arm" style={{width: '100%', height: '200px', objectFit: 'cover', display: 'block'}} />
               </div>
-              <div className="content">
-                <h3>
-                  <Link href="service-details">Gas Spring Dual Monitor Arm</Link>
+              <div className="content" style={{color: 'white'}}>
+                <h3 style={{fontSize: '20px', marginBottom: '12px'}}>
+                  <Link href="service-details" style={{color: 'white'}}>Gas Spring Dual Monitor Arm</Link>
                 </h3>
-                <p>
-                  Heavy-duty dual-screen mounting solution supporting two monitors simultaneously. Designed for professionals needing multi-tasking capability and clutter-free desk space.
+                <p style={{fontSize: '14px', lineHeight: '1.6', color: 'rgba(255,255,255,0.9)'}}>
+                  A heavy-duty dual-screen mounting solution that supports two monitors simultaneously. Designed for professionals who need more viewing flexibility.
                 </p>
+                <div style={{marginTop: '15px', fontSize: '13px', fontWeight: '600'}}>
+                  <strong>Technical:</strong> Both arms move independently, offering full adjustability for 2 displays up to 32". Built with strong steel and VESA 75/100 compatibility.
+                </div>
               </div>
             </div>
           </div>
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+            className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
             data-wow-delay=".7s"
           >
-            <div className="service-box-items">
-              <div className="icon">
-                <i className="flaticon-email-marketing" />
+            <div className="service-box-items" style={{background: 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)', borderRadius: '15px', padding: '30px', height: '100%', position: 'relative', overflow: 'hidden'}}>
+              <div className="product-image" style={{marginBottom: '20px', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.3)'}}>
+                <img src="/assets/img/products/monitor-arm-3.jpg" alt="Wall-Mounted Monitor Arm" style={{width: '100%', height: '200px', objectFit: 'cover', display: 'block'}} />
               </div>
-              <div className="content">
-                <h3>
-                  <Link href="service-details">Wall-Mounted Monitor Arm</Link>
+              <div className="content" style={{color: 'white'}}>
+                <h3 style={{fontSize: '20px', marginBottom: '12px'}}>
+                  <Link href="service-details" style={{color: 'white'}}>Wall-Mounted Monitor Arm</Link>
                 </h3>
-                <p>
-                  Robust wall-hanging monitor arm providing strong support, full adjustability, and space-saving installation. Suitable for offices, retail, and CCTV setups.
+                <p style={{fontSize: '14px', lineHeight: '1.6', color: 'rgba(255,255,255,0.9)'}}>
+                  A robust wall-hanging monitor arm that provides strong support, full adjustability, and space-saving installation. Suitable for offices and CCTV setups.
                 </p>
+                <div style={{marginTop: '15px', fontSize: '13px', fontWeight: '600'}}>
+                  <strong>Technical:</strong> Maximum space-saving with full-motion functionality. Supports 17-32" displays with high load capacity.
+                </div>
               </div>
             </div>
           </div>
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".3s"
+            className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
+            data-wow-delay=".9s"
           >
-            <div className="service-box-items">
-              <div className="icon">
-                <i className="flaticon-copy-writing" />
+            <div className="service-box-items" style={{background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)', borderRadius: '15px', padding: '30px', height: '100%', position: 'relative', overflow: 'hidden'}}>
+              <div className="product-image" style={{marginBottom: '20px', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.3)'}}>
+                <img src="/assets/img/products/monitor-arm-4.jpg" alt="Spinal Cable Organizers" style={{width: '100%', height: '200px', objectFit: 'cover', display: 'block'}} />
               </div>
-              <div className="content">
-                <h3>
-                  <Link href="service-details">Spinal Cable Organizers</Link>
+              <div className="content" style={{color: 'white'}}>
+                <h3 style={{fontSize: '20px', marginBottom: '12px'}}>
+                  <Link href="service-details" style={{color: 'white'}}>Spinal Cable Organizers</Link>
                 </h3>
-                <p>
-                  Stylish and functional vertical cable management system that keeps wires neat, protected, and aligned from desk to floor. Maintains a clean, professional workspace.
+                <p style={{fontSize: '14px', lineHeight: '1.6', color: 'rgba(255,255,255,0.9)'}}>
+                  A stylish and functional vertical cable management system that keeps wires neat, protected, and aligned from desk to floor.
                 </p>
+                <div style={{marginTop: '15px', fontSize: '13px', fontWeight: '600'}}>
+                  <strong>Technical:</strong> Flexible, modular cable spine with durable ABS segments and weighted base for stability.
+                </div>
               </div>
             </div>
           </div>
@@ -124,7 +136,7 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
           >
             <div className="service-popular-items">
               <div className="service-image">
-                <img src="assets/img/service/08.png" alt="img" />
+                <img src="/assets/img/products/monitor-arm-1.jpg" alt="Single Monitor Arm" style={{objectFit: 'cover', height: '250px'}} />
               </div>
               <div className="service-content">
                 <h3>
@@ -145,7 +157,7 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
           >
             <div className="service-popular-items">
               <div className="service-image">
-                <img src="assets/img/service/09.png" alt="img" />
+                <img src="/assets/img/products/monitor-arm-2.jpg" alt="Dual Monitor Arm" style={{objectFit: 'cover', height: '250px'}} />
               </div>
               <div className="service-content">
                 <h3>
@@ -166,7 +178,7 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
           >
             <div className="service-popular-items">
               <div className="service-image">
-                <img src="assets/img/service/10.png" alt="img" />
+                <img src="/assets/img/products/monitor-arm-5.jpg" alt="Wall Mount & Cable Management" style={{objectFit: 'cover', height: '250px'}} />
               </div>
               <div className="service-content">
                 <h3>

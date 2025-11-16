@@ -309,7 +309,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        55 Main Street, 2nd block, Melbourne, Australia
+                        Jaspal Bangar, Ind Area C, Ludhiana 141122
                       </a>
                     </div>
                   </li>

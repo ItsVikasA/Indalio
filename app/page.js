@@ -167,7 +167,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/01.jpg" alt="img" />
+                  <img src="/assets/img/products/monitor-arm-1.jpg" alt="Gas Spring Monitor Arm" />
                 </div>
               </div>
             </div>
@@ -189,7 +189,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/02.jpg" alt="img" />
+                  <img src="/assets/img/products/monitor-arm-2.jpg" alt="Wall-Mounted Monitor Arm" />
                 </div>
               </div>
             </div>
@@ -211,7 +211,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/03.jpg" alt="img" />
+                  <img src="/assets/img/products/monitor-arm-3.jpg" alt="Cable Management Monitor Arm" />
                 </div>
               </div>
             </div>
@@ -238,12 +238,12 @@ const page = () => {
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
-                        <img src="assets/img/about/01.jpg" alt="about-img" />
+                        <img src="/assets/img/products/monitor-arm-4.jpg" alt="Indalio Gas Spring Monitor Arm - Ergonomic Design" />
                       </div>
                     </div>
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".4s">
                       <div className="about-image">
-                        <img src="assets/img/about/02.jpg" alt="about-img" />
+                        <img src="/assets/img/products/monitor-arm-5.jpg" alt="Indalio Monitor Arm - Professional Setup" />
                       </div>
                     </div>
                   </div>
@@ -491,9 +491,9 @@ const page = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Robert E. Whitmore</Link>
+                    <Link href="team-details">Rajesh Kumar Singh</Link>
                   </h4>
-                  <p>Product Designer</p>
+                  <p>Production Manager</p>
                   <div className="social-profile">
                     <ul>
                       <li>
@@ -534,9 +534,9 @@ const page = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Johnny M. Smith</Link>
+                    <Link href="team-details">Priya Sharma</Link>
                   </h4>
-                  <p>IT Consultant</p>
+                  <p>Sales Head</p>
                   <div className="social-profile">
                     <ul>
                       <li>
@@ -577,9 +577,9 @@ const page = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Angelo H. Tomlin</Link>
+                    <Link href="team-details">Amit Patel</Link>
                   </h4>
-                  <p>Senior Manager</p>
+                  <p>Operations Manager</p>
                   <div className="social-profile">
                     <ul>
                       <li>
@@ -620,9 +620,9 @@ const page = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Robert E. Whitmore</Link>
+                    <Link href="team-details">Vikram Desai</Link>
                   </h4>
-                  <p>Web Designer</p>
+                  <p>Quality Control Head</p>
                   <div className="social-profile">
                     <ul>
                       <li>

@@ -112,8 +112,8 @@ const Footer1 = () => {
                     </div>
                     <div className="content">
                       <p>
-                        55 Main Street, 2nd block <br />
-                        Melbourne, Australia
+                        Jaspal Bangar, Ind Area C <br />
+                        Ludhiana 141122, Punjab, India
                       </p>
                     </div>
                   </div>
@@ -299,8 +299,8 @@ const Footer2 = () => {
                     </div>
                     <div className="content">
                       <p>
-                        55 Main Street, 2nd block <br />
-                        Melbourne, Australia
+                        Jaspal Bangar, Ind Area C <br />
+                        Ludhiana 141122, Punjab, India
                       </p>
                     </div>
                   </div>
@@ -478,8 +478,8 @@ const Footer3 = () => {
                     </div>
                     <div className="content">
                       <p>
-                        55 Main Street, 2nd block <br />
-                        Melbourne, Australia
+                        Jaspal Bangar, Ind Area C <br />
+                        Ludhiana 141122, Punjab, India
                       </p>
                     </div>
                   </div>
@@ -637,8 +637,8 @@ const Footer4 = () => {
                     </div>
                     <div className="content">
                       <p>
-                        55 Main Street, 2nd block <br />
-                        Melbourne, Australia
+                        Jaspal Bangar, Ind Area C <br />
+                        Ludhiana 141122, Punjab, India
                       </p>
                     </div>
                   </div>
@@ -809,8 +809,8 @@ const Footer6 = () => {
                     </div>
                     <div className="content">
                       <p>
-                        55 Main Street, 2nd block <br />
-                        Melbourne, Australia
+                        Jaspal Bangar, Ind Area C <br />
+                        Ludhiana 141122, Punjab, India
                       </p>
                     </div>
                   </div>

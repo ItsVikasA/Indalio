@@ -82,7 +82,7 @@ const ContactPage = () => {
                       <strong>Dealer & Distributor:</strong> <a href="tel:+917317300024">+91 7317300024</a> (Namanpreet Kaur)
                     </li>
                     <li>
-                      <strong>Address:</strong> 55 Main Street, 2nd block, Melbourne, Australia
+                      <strong>Address:</strong> Jaspal Bangar, Ind Area C, Ludhiana 141122
                     </li>
                     <li>
                       <strong>Website:</strong> <a href="https://www.indalio.com" target="_blank" rel="noopener noreferrer">www.indalio.com</a>
