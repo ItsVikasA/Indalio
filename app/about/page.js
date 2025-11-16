@@ -3,8 +3,30 @@ import FunFactCounter from "@/components/FunFactCounter";
 import Team from "@/components/Team";
 import { TestimonialSlider2 } from "@/components/TestimonialSlider";
 import { WorkingProcess2 } from "@/components/WorkingProcess";
+import AudienceScroller from "@/components/AudienceScroller";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
+
+const primaryAudiences = [
+  { icon: "flaticon-technical", title: "Corporate Offices & Workplaces", description: "Companies looking to set up ergonomic and organized workstations for their employees. They require bulk orders of monitor arms, cable organizers, and desk accessories." },
+  { icon: "flaticon-database", title: "IT Companies & Tech Startups", description: "Teams with multiple screens, coding setups, design work, and long working hours — ideal customers for ergonomic monitor arms." },
+  { icon: "flaticon-design-thinking", title: "E-Commerce Buyers", description: "Individual customers searching for monitor arms for WFH setups, cable management solutions, and gaming desk accessories." },
+  { icon: "flaticon-vector-design", title: "Furniture Manufacturers & Dealers", description: "Businesses that integrate monitor arms and cable organizers into office furniture, workstations, and modular desks." },
+  { icon: "flaticon-technical", title: "Stock Market Traders", description: "Traders who use multi-monitor setups for charts, live data, and analysis. Indalio's single and dual gas-spring monitor arms help them position screens perfectly and reduce neck strain." },
+  { icon: "flaticon-database", title: "CCTV / Security Installers", description: "They use wall-mounted monitor arms for control rooms and surveillance setups, requiring durable and adjustable solutions." },
+  { icon: "flaticon-design-thinking", title: "Gaming Setup Enthusiasts", description: "Gamers who prefer dual-monitor arms and clean cable management for premium setups, enhancing their gaming experience." }
+];
+
+const secondaryAudiences = [
+  { icon: "flaticon-vector-design", title: "Home Office & WFH Users", description: "Individuals working remotely who need a cleaner, more ergonomic desk setup with adjustable monitors.", titleSize: "1.1rem", minHeight: "280px" },
+  { icon: "flaticon-technical", title: "Content Creators", description: "Editors, YouTubers, and streamers who use multiple screens and require flexible monitor positioning.", titleSize: "1.1rem", minHeight: "280px" },
+  { icon: "flaticon-database", title: "Architects & Designers", description: "CAD professionals who rely on large or multiple displays and benefit from adjustable arms to reduce strain.", titleSize: "1.1rem", minHeight: "280px" },
+  { icon: "flaticon-design-thinking", title: "Students & Learners", description: "Students with limited desk space who need simple monitor mounting and cable management solutions.", titleSize: "1.1rem", minHeight: "280px" },
+  { icon: "flaticon-vector-design", title: "Small Businesses", description: "Growing companies that need affordable and efficient workspace accessories without compromising quality.", titleSize: "1.1rem", minHeight: "280px" },
+  { icon: "flaticon-technical", title: "Gaming Café Owners", description: "Cafés and gaming lounges that want clean, durable, and adjustable monitor mounts for professional setups.", titleSize: "1.1rem", minHeight: "280px" },
+  { icon: "flaticon-database", title: "Retail Shops & Electronics Stores", description: "Stores that display monitors or digital signage and require sturdy, adjustable wall-mounted arms.", titleSize: "1.1rem", minHeight: "280px" }
+];
+
 const page = () => {
   return (
     <NextLayout>
@@ -107,9 +129,9 @@ const page = () => {
       {/* Working Process Section Start */}
       <WorkingProcess2 />
       {/* Target Audience Section Start */}
-      <section className="section-padding pt-0">
+      <section className="section-padding pt-0" style={{background: 'linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%)'}}>
         <div className="container">
-          <div className="section-title text-center">
+          <div className="section-title text-center mb-5">
             <span className="sub-content wow fadeInUp">
               <img src="assets/img/bale.png" alt="img" />
               Who We Serve
@@ -118,200 +140,17 @@ const page = () => {
               Trusted by Diverse Professionals & Businesses
             </h2>
           </div>
+          
           {/* Primary Target Audiences */}
-          <div className="mb-4">
-            <h3 className="text-center mb-4 wow fadeInUp" data-wow-delay=".2s">Primary Target Audiences</h3>
-            <div className="row g-4">
-              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-technical" />
-                  </div>
-                  <div className="content">
-                    <h3>Corporate Offices & Workplaces</h3>
-                    <p>
-                      Companies looking to set up ergonomic and organized workstations for their employees. They require bulk orders of monitor arms, cable organizers, and desk accessories.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-database" />
-                  </div>
-                  <div className="content">
-                    <h3>IT Companies & Tech Startups</h3>
-                    <p>
-                      Teams with multiple screens, coding setups, design work, and long working hours — ideal customers for ergonomic monitor arms.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-design-thinking" />
-                  </div>
-                  <div className="content">
-                    <h3>E-Commerce Buyers (Retail Customers)</h3>
-                    <p>
-                      Individual customers searching for monitor arms for WFH setups, cable management solutions, and gaming desk accessories.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-email-marketing" />
-                  </div>
-                  <div className="content">
-                    <h3>Furniture Manufacturers & Office Furniture Dealers</h3>
-                    <p>
-                      Businesses that integrate monitor arms and cable organizers into office furniture, workstations, and modular desks.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-social-media" />
-                  </div>
-                  <div className="content">
-                    <h3>Stock Market Traders & Financial Analysts</h3>
-                    <p>
-                      Traders who use multi-monitor setups for charts, live data, and analysis. Indalio's single and dual gas-spring monitor arms help them position screens perfectly, reduce neck strain, and keep the trading desk clean and organized.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-www" />
-                  </div>
-                  <div className="content">
-                    <h3>CCTV / Security System Installers</h3>
-                    <p>
-                      They use wall-mounted monitor arms for control rooms and surveillance setups.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".9s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-copy-writing" />
-                  </div>
-                  <div className="content">
-                    <h3>Gaming Setup Enthusiasts</h3>
-                    <p>
-                      Gamers who prefer dual-monitor arms and clean cable management for premium setups.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="mb-5">
+            <h3 className="text-center mb-4 wow fadeInUp" data-wow-delay=".2s" style={{fontSize: '2rem', fontWeight: '700'}}>Primary Target Audiences</h3>
+            <AudienceScroller audiences={primaryAudiences} direction="left" />
           </div>
 
           {/* Secondary Target Audiences */}
           <div className="mt-5">
-            <h3 className="text-center mb-4 wow fadeInUp" data-wow-delay=".2s">Secondary Target Audiences</h3>
-            <div className="row g-4">
-              <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-vector-design" />
-                  </div>
-                  <div className="content">
-                    <h4>Home Office & Work-From-Home Users</h4>
-                    <p>
-                      Individuals working remotely who need a cleaner, more ergonomic desk setup with adjustable monitors and organized cables.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-software-development" />
-                  </div>
-                  <div className="content">
-                    <h4>Content Creators & Video Editors</h4>
-                    <p>
-                      Editors, YouTubers, and streamers who use multiple screens and require flexible monitor positioning for better workflow and comfort.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-technical" />
-                  </div>
-                  <div className="content">
-                    <h4>Architects, Designers & CAD Professionals</h4>
-                    <p>
-                      Users who rely on large or multiple displays for design tasks and benefit from adjustable arms to reduce neck and eye strain.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-database" />
-                  </div>
-                  <div className="content">
-                    <h4>Students & Online Learners</h4>
-                    <p>
-                      Students with limited desk space who need simple monitor mounting and cable management solutions for study setups.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-email-marketing" />
-                  </div>
-                  <div className="content">
-                    <h4>Small Businesses & Startups</h4>
-                    <p>
-                      Growing companies that need affordable and efficient workspace accessories without compromising quality.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-copy-writing" />
-                  </div>
-                  <div className="content">
-                    <h4>Gaming Café Owners</h4>
-                    <p>
-                      Cafés and gaming lounges that want clean, durable, and adjustable monitor mounts for professional gaming setups.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".9s">
-                <div className="service-box-items">
-                  <div className="icon">
-                    <i className="flaticon-www" />
-                  </div>
-                  <div className="content">
-                    <h4>Retail Shops & Electronic Stores</h4>
-                    <p>
-                      Stores that display monitors or digital signage and require sturdy, adjustable wall-mounted arms.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h3 className="text-center mb-4 wow fadeInUp" data-wow-delay=".2s" style={{fontSize: '2rem', fontWeight: '700'}}>Secondary Target Audiences</h3>
+            <AudienceScroller audiences={secondaryAudiences} direction="right" />
           </div>
         </div>
       </section>

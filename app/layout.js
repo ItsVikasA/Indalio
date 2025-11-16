@@ -10,6 +10,7 @@ import "./globals.css";
 import Preloader from "@/layouts/Preloader";
 
 export const metadata = {
+  metadataBase: new URL('https://indalio.com'),
   title: "Indalio - Premium Workspace Accessories | Monitor Arms & Cable Management",
   description: "Indalio specializes in manufacturing high-quality gas spring monitor arms, wall-mounted solutions, and cable management systems. Engineered in Ludhiana for modern workspaces.",
   applicationName: "Indalio",

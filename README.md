@@ -2,6 +2,8 @@
 
 A modern Next.js website for Indalio, a leading manufacturer of premium gas-spring monitor arms and cable management solutions based in Ludhiana, Punjab.
 
+🌐 **Live Website**: [indalio](https://indalio.vercel.app/)
+
 ## 🚀 About Indalio
 
 Indalio specializes in manufacturing high-quality ergonomic workspace accessories:
