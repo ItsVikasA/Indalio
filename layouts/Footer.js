@@ -158,7 +158,7 @@ const Footer1 = () => {
                     />
                     <div className="content">
                       <ul className="post-date">
-                        <li>Nov 25, 2024</li>
+                        <li>Nov 15, 2025</li>
                       </ul>
                       <h6>
                         <Link href="news-details">
@@ -176,7 +176,7 @@ const Footer1 = () => {
                     />
                     <div className="content">
                       <ul className="post-date">
-                        <li>Nov 29, 2024</li>
+                        <li>Nov 10, 2025</li>
                       </ul>
                       <h6>
                         <Link href="news-details">
@@ -213,7 +213,7 @@ const Footer1 = () => {
                 <i className="far fa-angle-double-up" />
               </a>
               <p className="wow fadeInUp" data-wow-delay=".6s">
-                © <Link href="/">2024</Link> All Rights Reserved
+                © <Link href="/">2025</Link> All Rights Reserved
               </p>
             </div>
           </div>
@@ -393,7 +393,7 @@ const Footer2 = () => {
               <i className="far fa-angle-double-up" />
             </a>
             <p>
-              © <Link href="/">2024</Link> All Rights Reserved
+              © <Link href="/">2025</Link> All Rights Reserved
             </p>
           </div>
         </div>
@@ -546,7 +546,7 @@ const Footer3 = () => {
               <i className="far fa-angle-double-up" />
             </a>
             <p>
-              © <Link href="/">2024</Link> All Rights Reserved
+              © <Link href="/">2025</Link> All Rights Reserved
             </p>
           </div>
         </div>
@@ -705,7 +705,7 @@ const Footer4 = () => {
               <i className="far fa-angle-double-up" />
             </a>
             <p>
-              © <Link href="/">2024</Link> All Rights Reserved
+              © <Link href="/">2025</Link> All Rights Reserved
             </p>
           </div>
         </div>
@@ -855,7 +855,7 @@ const Footer6 = () => {
                     />
                     <div className="content">
                       <ul className="post-date">
-                        <li>Nov 25, 2024</li>
+                        <li>Nov 15, 2025</li>
                       </ul>
                       <h6>
                         <Link href="news-details">
@@ -873,7 +873,7 @@ const Footer6 = () => {
                     />
                     <div className="content">
                       <ul className="post-date">
-                        <li>Nov 29, 2024</li>
+                        <li>Nov 10, 2025</li>
                       </ul>
                       <h6>
                         <Link href="news-details">
@@ -910,7 +910,7 @@ const Footer6 = () => {
                 <i className="far fa-angle-double-up" />
               </a>
               <p className="wow fadeInUp" data-wow-delay=".6s">
-                © <Link href="/">2024</Link> All Rights Reserved
+                © <Link href="/">2025</Link> All Rights Reserved
               </p>
             </div>
           </div>
@@ -919,4 +919,6 @@ const Footer6 = () => {
     </footer>
   );
 };
+
+
 
