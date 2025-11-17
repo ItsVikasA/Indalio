@@ -23,24 +23,20 @@ const page = () => {
                       <div className="post-meta">
                         <span>
                           <i className="fal fa-comments" />
-                          35 Comments
+                          28 Comments
                         </span>
                         <span>
                           <i className="fal fa-calendar-alt" />
-                          24th March 2024
+                          15th November 2025
                         </span>
                       </div>
                       <h2>
                         <Link href="news-details">
-                          Achieving Fashion Elegant Design Runway Life
+                          Why Gas Spring Monitor Arms Are Essential for Modern Workspaces
                         </Link>
                       </h2>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered teration in some
-                        form, by injected humour, or randomised words which
-                        don't look even slight believable. If you are going to
-                        use a passage of Lorem Ipsum.
+                        Discover how gas spring monitor arms from Indalio are revolutionizing workplace ergonomics across India. Learn about the engineering excellence, health benefits, and productivity improvements that make these accessories essential for modern offices.
                       </p>
                       <Link
                         href="news-details"
@@ -63,24 +59,20 @@ const page = () => {
                       <div className="post-meta">
                         <span>
                           <i className="fal fa-comments" />
-                          35 Comments
+                          22 Comments
                         </span>
                         <span>
                           <i className="fal fa-calendar-alt" />
-                          24th March 2024
+                          10th November 2025
                         </span>
                       </div>
                       <h2>
                         <Link href="news-details">
-                          Achieving Fashion Elegant Design Runway Life
+                          Complete Guide to Choosing the Right Monitor Arm for Your Setup
                         </Link>
                       </h2>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered teration in some
-                        form, by injected humour, or randomised words which
-                        don't look even slight believable. If you are going to
-                        use a passage of Lorem Ipsum.
+                        From VESA compatibility to weight capacity, explore everything you need to know when selecting a monitor arm. Our comprehensive guide covers technical specifications, installation methods, and how to match the right arm to your workspace needs.
                       </p>
                       <Link
                         href="news-details"
@@ -112,24 +104,20 @@ const page = () => {
                       <div className="post-meta">
                         <span>
                           <i className="fal fa-comments" />
-                          35 Comments
+                          18 Comments
                         </span>
                         <span>
                           <i className="fal fa-calendar-alt" />
-                          24th March 2024
+                          5th November 2025
                         </span>
                       </div>
                       <h2>
                         <Link href="news-details">
-                          Achieving Fashion Elegant Design Runway Life
+                          Cable Management Solutions: Creating a Clean & Organized Workspace
                         </Link>
                       </h2>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered teration in some
-                        form, by injected humour, or randomised words which
-                        don't look even slight believable. If you are going to
-                        use a passage of Lorem Ipsum.
+                        Transform cluttered desks into organized workspaces with integrated cable management systems. Learn how Indalio monitor arms help maintain clean aesthetics while improving functionality and safety in your office environment.
                       </p>
                       <Link
                         href="news-details"
@@ -152,24 +140,20 @@ const page = () => {
                       <div className="post-meta">
                         <span>
                           <i className="fal fa-comments" />
-                          35 Comments
+                          31 Comments
                         </span>
                         <span>
                           <i className="fal fa-calendar-alt" />
-                          24th March 2024
+                          1st November 2025
                         </span>
                       </div>
                       <h2>
                         <Link href="news-details">
-                          Achieving Fashion Elegant Design Runway Life
+                          Dual Monitor Setup: Benefits & Best Practices for Productivity
                         </Link>
                       </h2>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered teration in some
-                        form, by injected humour, or randomised words which
-                        don't look even slight believable. If you are going to
-                        use a passage of Lorem Ipsum.
+                        Maximize your productivity with a properly configured dual monitor setup. Discover ergonomic positioning tips, the advantages of using dual monitor arms, and how to create the perfect multi-display workspace for your needs.
                       </p>
                       <Link
                         href="news-details"
@@ -189,17 +173,16 @@ const page = () => {
                         </div>
                         <div className="quote-text">
                           <h2>
-                            Excepteur sint occaecat cupida tat non proident,
-                            sunt in.
+                            "Switching to Indalio monitor arms transformed our office. The quality rivals international brands at competitive prices. Proud to support Indian manufacturing."
                           </h2>
                           <div className="post-meta">
                             <span>
                               <i className="fal fa-comments" />
-                              35 Comments
+                              42 Comments
                             </span>
                             <span>
                               <i className="fal fa-calendar-alt" />
-                              24th March 2024
+                              28th October 2025
                             </span>
                           </div>
                         </div>
@@ -217,24 +200,20 @@ const page = () => {
                       <div className="post-meta">
                         <span>
                           <i className="fal fa-comments" />
-                          35 Comments
+                          15 Comments
                         </span>
                         <span>
                           <i className="fal fa-calendar-alt" />
-                          24th March 2024
+                          25th October 2025
                         </span>
                       </div>
                       <h2>
                         <Link href="news-details">
-                          How to Remedy Tailbone Back Problems
+                          Ergonomics in the Workplace: Preventing Neck and Back Pain
                         </Link>
                       </h2>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered teration in some
-                        form, by injected humour, or randomised words which
-                        don't look even slight believable. If you are going to
-                        use a passage of Lorem Ipsum.
+                        Learn how proper monitor positioning can significantly reduce workplace injuries and discomfort. Explore the science behind ergonomic monitor arms and their role in promoting healthier, more comfortable work environments.
                       </p>
                       <Link
                         href="news-details"
@@ -290,24 +269,20 @@ const page = () => {
                       <div className="post-meta">
                         <span>
                           <i className="fal fa-comments" />
-                          35 Comments
+                          26 Comments
                         </span>
                         <span>
                           <i className="fal fa-calendar-alt" />
-                          24th March 2024
+                          20th October 2025
                         </span>
                       </div>
                       <h2>
                         <Link href="news-details">
-                          Achieving Fashion Elegant Design Runway Life
+                          Wall-Mounted vs Desk-Mounted Monitor Arms: Which Is Right for You?
                         </Link>
                       </h2>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered teration in some
-                        form, by injected humour, or randomised words which
-                        don't look even slight believable. If you are going to
-                        use a passage of Lorem Ipsum.
+                        Compare the benefits of wall-mounted and desk-mounted monitor solutions for different workspace scenarios. From control rooms to corporate offices, understand which mounting option best suits your specific requirements and space constraints.
                       </p>
                       <Link
                         href="news-details"
@@ -390,12 +365,12 @@ const page = () => {
                         <div className="post-content">
                           <h5>
                             <Link href="news-details">
-                              Achieving Fashion Runway to Real Life
+                              Gas Spring Monitor Arms: Essential Workspace Tool
                             </Link>
                           </h5>
                           <div className="post-date">
                             <i className="far fa-calendar-alt" />
-                            24th March 2024
+                            15th November 2025
                           </div>
                         </div>
                       </div>
@@ -410,12 +385,12 @@ const page = () => {
                           <h5>
                             <Link href="news-details">
                               {" "}
-                              Achieving Fashion Runway to Real Life
+                              Complete Guide to Choosing Monitor Arms
                             </Link>
                           </h5>
                           <div className="post-date">
                             <i className="far fa-calendar-alt" />
-                            25th March 2024
+                            10th November 2025
                           </div>
                         </div>
                       </div>
@@ -430,12 +405,12 @@ const page = () => {
                           <h5>
                             <Link href="news-details">
                               {" "}
-                              Achieving Fashion Runway to Real Life
+                              Cable Management for Clean Workspace
                             </Link>
                           </h5>
                           <div className="post-date">
                             <i className="far fa-calendar-alt" />
-                            26th March 2024
+                            5th November 2025
                           </div>
                         </div>
                       </div>
@@ -449,32 +424,32 @@ const page = () => {
                       <ul>
                         <li>
                           <Link href="news">
-                            Digital Marketing <span>02</span>
+                            Monitor Arms <span>12</span>
                           </Link>
                         </li>
                         <li>
                           <Link href="news">
-                            SEO optimization <span>05</span>
+                            Ergonomic Solutions <span>08</span>
                           </Link>
                         </li>
                         <li>
                           <Link href="news">
-                            Content Marketing <span>10</span>
+                            Workspace Design <span>15</span>
                           </Link>
                         </li>
                         <li>
                           <Link href="news">
-                            Marketing <span>03</span>
+                            Cable Management <span>06</span>
                           </Link>
                         </li>
                         <li>
                           <Link href="news">
-                            Keywords Research <span>10</span>
+                            Office Accessories <span>10</span>
                           </Link>
                         </li>
                         <li>
                           <Link href="news">
-                            Technical Adult <span>03</span>
+                            Product Reviews <span>09</span>
                           </Link>
                         </li>
                       </ul>
@@ -507,12 +482,12 @@ const page = () => {
                       <h3>Popular Tags</h3>
                     </div>
                     <div className="tagcloud">
-                      <Link href="news-details">Marketing</Link>
-                      <Link href="news-details">Product</Link>
-                      <Link href="news-details">Social Media</Link>
-                      <Link href="news-details">SEO Optimize</Link>
-                      <Link href="news-details">Content</Link>
-                      <Link href="news-details">Design</Link>
+                      <Link href="news-details">Gas Spring</Link>
+                      <Link href="news-details">VESA Mount</Link>
+                      <Link href="news-details">Ergonomics</Link>
+                      <Link href="news-details">Dual Monitor</Link>
+                      <Link href="news-details">Wall Mount</Link>
+                      <Link href="news-details">Desk Setup</Link>
                     </div>
                   </div>
                 </div>

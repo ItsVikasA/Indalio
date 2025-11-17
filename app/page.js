@@ -29,7 +29,12 @@ const page = () => {
     <NextLayout header={1}>
       <section
         className="hero-section hero-1 bg-cover fix"
-        style={{ backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgRxOPKAqnW5XMvOI28op3ecQ66kddDCC30A&s")' }}
+        style={{ 
+          backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfVbOveBmglNG_5hCZa5fy3SwwThK9UGmb7g&s")',
+          paddingTop: '100px',
+          paddingBottom: '100px',
+          minHeight: 'auto'
+        }}
       >
         <div className="container">
           <div className="row g-4 justify-content-between">
@@ -185,7 +190,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="/assets/img/products/monitor-arm-1.jpg" alt="Gas Spring Monitor Arm" />
+                  <img src="/assets/img/products/monitor-arm-4.jpg" alt="Gas Spring Monitor Arm" />
                 </div>
               </div>
             </div>
@@ -206,7 +211,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="/assets/img/products/monitor-arm-2.jpg" alt="Wall-Mounted Monitor Arm" />
+                  <img src="/assets/img/products/monitor-arm-6.jpg" alt="Wall-Mounted Monitor Arm" />
                 </div>
               </div>
             </div>
@@ -254,12 +259,12 @@ const page = () => {
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
-                        <img src="/assets/img/products/monitor-arm-4.jpg" alt="Indalio Gas Spring Monitor Arm - Ergonomic Design" />
+                        <img src="/assets/img/products/monitor-arm-6.jpg" alt="Indalio Gas Spring Monitor Arm - Ergonomic Design" />
                       </div>
                     </div>
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".4s">
                       <div className="about-image">
-                        <img src="/assets/img/products/monitor-arm-5.jpg" alt="Indalio Monitor Arm - Professional Setup" />
+                        <img src="/assets/img/products/monitor-arm-7.jpg" alt="Indalio Monitor Arm - Professional Setup" />
                       </div>
                     </div>
                   </div>
@@ -375,7 +380,7 @@ const page = () => {
           </div>
           <div className="row">
             <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
+              className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
               data-wow-delay=".2s"
             >
               <div className="service-card-items">
@@ -384,7 +389,7 @@ const page = () => {
                 </div>
                 <h3>
                   <Link href="service-details">
-                    Data Center and Cloud Services
+                    Ergonomic Workspace Setup
                   </Link>
                 </h3>
                 <div className="service-thumb">
@@ -400,7 +405,7 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
+              className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
               data-wow-delay=".4s"
             >
               <div className="service-card-items active">
@@ -409,7 +414,7 @@ const page = () => {
                 </div>
                 <h3>
                   <Link href="service-details">
-                    Web Development Software Renew
+                    Dual Monitor Arm Solutions
                   </Link>
                 </h3>
                 <div className="service-thumb">
@@ -425,7 +430,7 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
+              className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
               data-wow-delay=".6s"
             >
               <div className="service-card-items">
@@ -434,7 +439,7 @@ const page = () => {
                 </div>
                 <h3>
                   <Link href="service-details">
-                    IT Management Machine Learning
+                    Corporate Installation Services
                   </Link>
                 </h3>
                 <div className="service-thumb">
@@ -450,7 +455,7 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
+              className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
               data-wow-delay=".8s"
             >
               <div className="service-card-items">
@@ -459,7 +464,7 @@ const page = () => {
                 </div>
                 <h3>
                   <Link href="service-details">
-                    Digital Product UI/UX Design
+                    OEM & Dealer Partnerships
                   </Link>
                 </h3>
                 <div className="service-thumb">
@@ -751,15 +756,14 @@ const page = () => {
             <div className="section-title">
               <span className="sub-content wow fadeInUp">
                 <img src="assets/img/bale.png" alt="img" />
-                Popular Case Study
+                Success Stories
               </span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                Discover Our Popular Case Study <br /> That We Globally
-                Completes
+                Real-World Implementations <br /> Transforming Workspaces Nationwide
               </h2>
             </div>
             <Link href="project" className="theme-btn white-border">
-              View More Cases
+              View All Projects
             </Link>
           </div>
           <div className="row">
@@ -772,10 +776,10 @@ const page = () => {
                   <img src="assets/img/case-study/01.jpg" alt="img" />
                 </div>
                 <div className="content">
-                  <p>IT Consulting</p>
+                  <p>Corporate Office Setup</p>
                   <h3>
                     <Link href="case-study-details">
-                      How to achieve more with your nine to five
+                      500+ Dual Monitor Arms Deployed for IT Company in Bangalore
                     </Link>
                   </h3>
                   <Link className="arrow-btn" href="case-study-details">
@@ -793,10 +797,10 @@ const page = () => {
                   <img src="assets/img/case-study/02.jpg" alt="img" />
                 </div>
                 <div className="content">
-                  <p>Machine Learning</p>
+                  <p>Control Room Solution</p>
                   <h3>
                     <Link href="case-study-details">
-                      Strategies for outstanding future results
+                      Wall-Mounted CCTV Monitor Setup for Security Operations Center
                     </Link>
                   </h3>
                   <Link className="arrow-btn" href="case-study-details">
@@ -814,10 +818,10 @@ const page = () => {
                   <img src="assets/img/case-study/03.jpg" alt="img" />
                 </div>
                 <div className="content">
-                  <p>Software Design</p>
+                  <p>Ergonomic Upgrade</p>
                   <h3>
                     <Link href="case-study-details">
-                      Discover a better way of system defining company goals.
+                      Complete Workspace Transformation with Gas Spring Monitor Arms
                     </Link>
                   </h3>
                   <Link className="arrow-btn" href="case-study-details">
@@ -852,10 +856,10 @@ const page = () => {
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
               <img src="assets/img/bale.png" alt="img" />
-              News &amp; Blog
+              Insights & Updates
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Explore Our Latest News &amp; Blog
+              Ergonomic Workspace Solutions & Industry Insights
             </h2>
           </div>
           <div className="row">
@@ -865,11 +869,10 @@ const page = () => {
             >
               <div className="news-box-items">
                 <div className="news-content">
-                  <p>November 25, 2024</p>
+                  <p>November 15, 2025</p>
                   <h4>
                     <Link href="news-details">
-                      Revealing Images With Animations Gradients, Blend Modes
-                      Cool
+                      Why Gas Spring Monitor Arms Are Essential for Modern Workspaces
                     </Link>
                   </h4>
                   <Link className="link-btn" href="news-details">
@@ -889,11 +892,10 @@ const page = () => {
             >
               <div className="news-box-items">
                 <div className="news-content">
-                  <p>November 25, 2024</p>
+                  <p>November 10, 2025</p>
                   <h4>
                     <Link href="news-details">
-                      List of 5 ways Generating Real Time Audio Sentiment
-                      Analysis
+                      Complete Guide to Choosing the Right Monitor Arm for Your Setup
                     </Link>
                   </h4>
                   <Link className="link-btn" href="news-details">
@@ -913,11 +915,10 @@ const page = () => {
             >
               <div className="news-box-items">
                 <div className="news-content">
-                  <p>November 25, 2024</p>
+                  <p>November 5, 2025</p>
                   <h4>
                     <Link href="news-details">
-                      Revealing Images With Animations Gradients, Blend Modes
-                      Cool
+                      Cable Management Solutions: Creating a Clean & Organized Workspace
                     </Link>
                   </h4>
                   <Link className="link-btn" href="news-details">
@@ -942,12 +943,12 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
               <div className="newsletter-box" style={{background: '#1a1d2e', padding: '40px', borderRadius: '10px', height: '100%'}}>
                 <div className="section-title mb-4">
-                  <span className="sub-content">
+                  <span className="sub-content" style={{color: '#8760FD'}}>
                     <img src="assets/img/bale.png" alt="img" />
                     Stay Updated
                   </span>
-                  <h3 className="text-white mt-3">Subscribe to Our Newsletter</h3>
-                  <p className="text-white-50 mt-3">
+                  <h3 className="text-white mt-3" style={{fontSize: '24px', fontWeight: '700'}}>Subscribe to Our Newsletter</h3>
+                  <p className="mt-3" style={{color: 'rgba(255, 255, 255, 0.85)', fontSize: '15px', lineHeight: '1.6'}}>
                     Get exclusive updates on new product launches, dealer partnerships, special discounts, and installation guides.
                   </p>
                 </div>
@@ -970,7 +971,7 @@ const page = () => {
                       />
                     </div>
                     <div className="col-lg-12">
-                      <select className="form-control" style={{padding: '15px', borderRadius: '5px'}}>
+                      <select className="form-control" style={{padding: '15px', borderRadius: '5px', fontSize: '15px', color: '#333'}}>
                         <option value="">I'm interested in...</option>
                         <option value="new-products">New Product Launches</option>
                         <option value="dealer">Dealer Updates & Partnerships</option>
@@ -993,12 +994,12 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
               <div className="download-catalog-box" style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', padding: '40px', borderRadius: '10px', height: '100%'}}>
                 <div className="section-title mb-4">
-                  <span className="sub-content">
-                    <img src="assets/img/bale.png" alt="img" />
+                  <span className="sub-content" style={{color: '#fff'}}>
+                    <img src="assets/img/bale.png" alt="img" style={{filter: 'brightness(0) invert(1)'}} />
                     Resources
                   </span>
-                  <h3 className="text-white mt-3">Download Product Catalog</h3>
-                  <p className="text-white-90 mt-3">
+                  <h3 className="text-white mt-3" style={{fontSize: '24px', fontWeight: '700'}}>Download Product Catalog</h3>
+                  <p className="mt-3" style={{color: 'rgba(255, 255, 255, 0.95)', fontSize: '15px', lineHeight: '1.6'}}>
                     Get comprehensive details about our complete range of gas-spring monitor arms, wall-mounted solutions, and cable organizers.
                   </p>
                 </div>

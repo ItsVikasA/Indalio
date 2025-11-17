@@ -154,7 +154,7 @@ export const Service2 = () => {
                 </Link>
               </div>
               <div className="thumb">
-                <img src="/assets/img/products/monitor-arm-1.jpg" alt="Gas Spring Monitor Arm" />
+                <img src="/assets/img/products/monitor-arm-4.jpg" alt="Gas Spring Monitor Arm" />
               </div>
             </div>
           </div>
@@ -175,7 +175,7 @@ export const Service2 = () => {
                 </Link>
               </div>
               <div className="thumb">
-                <img src="/assets/img/products/monitor-arm-2.jpg" alt="Wall-Mounted Monitor Arm" />
+                <img src="/assets/img/products/monitor-arm-6.jpg" alt="Wall-Mounted Monitor Arm" />
               </div>
             </div>
           </div>
