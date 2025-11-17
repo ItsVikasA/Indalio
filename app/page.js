@@ -392,8 +392,7 @@ const page = () => {
                     Ergonomic Workspace Setup
                   </Link>
                 </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/04.png" alt="service-img" />
+                <div className="service-thumb" style={{backgroundImage: 'url("assets/img/products/monitor-arm-8.png")', backgroundSize: 'cover', backgroundPosition: 'center'}}>
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
@@ -417,8 +416,7 @@ const page = () => {
                     Dual Monitor Arm Solutions
                   </Link>
                 </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/05.png" alt="service-img" />
+                <div className="service-thumb" style={{backgroundImage: 'url("assets/img/products/monitor-arm-9.png")', backgroundSize: 'cover', backgroundPosition: 'center'}}>
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
@@ -442,8 +440,7 @@ const page = () => {
                     Corporate Installation Services
                   </Link>
                 </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/06.png" alt="service-img" />
+                <div className="service-thumb" style={{backgroundImage: 'url("assets/img/products/monitor-arm-10.png")', backgroundSize: 'cover', backgroundPosition: 'center'}}>
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
@@ -467,8 +464,7 @@ const page = () => {
                     OEM & Dealer Partnerships
                   </Link>
                 </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/07.png" alt="service-img" />
+                <div className="service-thumb" style={{backgroundImage: 'url("assets/img/products/monitor-arm-11.png")', backgroundSize: 'cover', backgroundPosition: 'center'}}>
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
@@ -773,7 +769,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/01.jpg" alt="img" />
+                  <img src="assets/img/products/monitor-arm-12.png" alt="img" />
                 </div>
                 <div className="content">
                   <p>Corporate Office Setup</p>
@@ -794,7 +790,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/02.jpg" alt="img" />
+                  <img src="assets/img/products/monitor-arm-13.png" alt="img" />
                 </div>
                 <div className="content">
                   <p>Control Room Solution</p>
@@ -815,7 +811,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/03.jpg" alt="img" />
+                  <img src="assets/img/products/monitor-arm-14.png" alt="img" />
                 </div>
                 <div className="content">
                   <p>Ergonomic Upgrade</p>
@@ -840,7 +836,7 @@ const page = () => {
             <div className="row g-4">
               <div className="col-lg-3">
                 <div className="testimonial-image">
-                  <img src="assets/img/testimonial/testimonial.png" alt="img" />
+                  <img src="assets/img/products/monitor-arm-8.png" alt="img" />
                 </div>
               </div>
               <div className="col-lg-7 ps-lg-5">

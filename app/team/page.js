@@ -395,7 +395,7 @@ const page = () => {
             <div className="row g-4">
               <div className="col-lg-3">
                 <div className="testimonial-image">
-                  <img src="assets/img/testimonial/testimonial.png" alt="img" />
+                  <img src="assets/img/products/monitor-arm-8.png" alt="img" />
                 </div>
               </div>
               <div className="col-lg-7 ps-lg-5">
