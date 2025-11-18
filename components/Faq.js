@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 const Faq = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(-1);
 
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? -1 : index);
